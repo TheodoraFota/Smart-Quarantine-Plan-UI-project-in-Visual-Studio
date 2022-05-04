@@ -1,0 +1,269 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B0F0D772-DD14-4269-AD76-3BCCB8FE8495}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>UI_ergasia</RootNamespace>
+    <AssemblyName>UI ergasia</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="EpilogesIlikiomenonForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EpilogesIlikiomenonForm.Designer.cs">
+      <DependentUpon>EpilogesIlikiomenonForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KafetieraBrastirasForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KafetieraBrastirasForm.Designer.cs">
+      <DependentUpon>KafetieraBrastirasForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ThermometroForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ThermometroForm.Designer.cs">
+      <DependentUpon>ThermometroForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TVForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TVForm.Designer.cs">
+      <DependentUpon>TVForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User.cs" />
+    <Compile Include="DiadromiForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DiadromiForm.Designer.cs">
+      <DependentUpon>DiadromiForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BoithiaSeIlikiomenous.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BoithiaSeIlikiomenous.Designer.cs">
+      <DependentUpon>BoithiaSeIlikiomenous.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EpilogesSyskeuesSpitiou.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EpilogesSyskeuesSpitiou.Designer.cs">
+      <DependentUpon>EpilogesSyskeuesSpitiou.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Epilogi1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Epilogi1.Designer.cs">
+      <DependentUpon>Epilogi1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Epilogi2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Epilogi2.Designer.cs">
+      <DependentUpon>Epilogi2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FotaForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FotaForm.Designer.cs">
+      <DependentUpon>FotaForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProtinomenesDiadromes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProtinomenesDiadromes.Designer.cs">
+      <DependentUpon>ProtinomenesDiadromes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EpilogesKafe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EpilogesKafe.Designer.cs">
+      <DependentUpon>EpilogesKafe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Arxiki.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Arxiki.Designer.cs">
+      <DependentUpon>Arxiki.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resource.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resource.resx</DependentUpon>
+    </Compile>
+    <Compile Include="ThermansiForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ThermansiForm.Designer.cs">
+      <DependentUpon>ThermansiForm.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="DiadromiForm.resx">
+      <DependentUpon>DiadromiForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BoithiaSeIlikiomenous.resx">
+      <DependentUpon>BoithiaSeIlikiomenous.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EpilogesIlikiomenonForm.resx">
+      <DependentUpon>EpilogesIlikiomenonForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EpilogesSyskeuesSpitiou.resx">
+      <DependentUpon>EpilogesSyskeuesSpitiou.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Epilogi1.resx">
+      <DependentUpon>Epilogi1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Epilogi2.resx">
+      <DependentUpon>Epilogi2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FotaForm.resx">
+      <DependentUpon>FotaForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KafetieraBrastirasForm.resx">
+      <DependentUpon>KafetieraBrastirasForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProtinomenesDiadromes.resx">
+      <DependentUpon>ProtinomenesDiadromes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EpilogesKafe.resx">
+      <DependentUpon>EpilogesKafe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Arxiki.resx">
+      <DependentUpon>Arxiki.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resource.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ThermansiForm.resx">
+      <DependentUpon>ThermansiForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ThermometroForm.resx">
+      <DependentUpon>ThermometroForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TVForm.resx">
+      <DependentUpon>TVForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\doorbell-1.wav" />
+    <None Include="Resources\warning %281%29.png" />
+    <None Include="Resources\warning.png" />
+    <None Include="Resources\prosoxi.png" />
+    <None Include="Resources\old_man.jpg" />
+    <None Include="Resources\tvon.jpg" />
+    <None Include="Resources\tvoff.png" />
+    <None Include="Resources\vrastiras1.png" />
+    <None Include="Resources\vrastiras2.png" />
+    <None Include="Resources\kafetiera1.png" />
+    <None Include="Resources\kafetiera2.png" />
+    <None Include="Resources\kaf3.png" />
+    <None Include="Resources\kafetiera2.jpg" />
+    <None Include="Resources\kafetiera1.jpg" />
+    <None Include="Resources\kaf3.jpg" />
+    <None Include="Resources\kafetiera1.jfif" />
+    <None Include="Resources\kafetiera2.jfif" />
+    <None Include="Resources\radiatoroff.png" />
+    <None Include="Resources\radiatoron.png" />
+    <None Include="Resources\AC_closed.png" />
+    <None Include="Resources\ac_open.png" />
+    <None Include="Resources\lighton.jpg" />
+    <None Include="Resources\lightsoff.jpg" />
+    <None Include="Resources\klepsidra1.png" />
+    <None Include="Resources\klepsidra.jpg" />
+    <None Include="Resources\mikel_coffee.png" />
+    <None Include="Resources\coffeeisland_co.jpg" />
+    <None Include="Resources\mikel.jpg" />
+    <None Include="Resources\coffee_island.jpg" />
+    <None Include="Resources\prasino.png" />
+    <None Include="Resources\radiatoroff" />
+    <None Include="Resources\radiatoron" />
+    <None Include="Resources\walking.jpg" />
+    <None Include="Resources\metro.jpg" />
+    <None Include="Resources\car.jpg" />
+    <None Include="Resources\bus.jpg" />
+    <None Include="Resources\bicycle.jpg" />
+    <None Include="Resources\diadromi_work2.png" />
+    <None Include="Resources\diadromi_work.png" />
+    <None Include="Resources\diadromi_market2.png" />
+    <None Include="Resources\diadromi_market.png" />
+    <None Include="Resources\diadromi_gym2.png" />
+    <None Include="Resources\diadromi_gym.png" />
+    <None Include="bin\Debug\diadromi_gym2.png" />
+    <None Include="bin\Debug\diadromi_market2.png" />
+    <None Include="bin\Debug\diadromi_market.png" />
+    <None Include="bin\Debug\diadromi_work2.png" />
+    <None Include="bin\Debug\diadromi_work.png" />
+    <Content Include="Bitmap1.bmp" />
+    <Content Include="Properties\diadromi_gym.png" />
+    <Content Include="Properties\diadromi_gym2.png" />
+    <Content Include="Properties\diadromi_market.png" />
+    <Content Include="Properties\diadromi_market2.png" />
+    <Content Include="Properties\diadromi_work.png" />
+    <Content Include="Properties\diadromi_work2.png" />
+    <None Include="Resources\test.png" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
